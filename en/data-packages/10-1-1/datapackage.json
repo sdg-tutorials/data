@@ -12,52 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string",
+            "type": "number",
             "title": "Year"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Growth rates of household income per capita",
-                "Growth rates of household expenditure per capita",
-                ""
-              ]
-            },
-            "title": "Series"
-          },
-          {
-            "name": "Income group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Bottom 40%",
-                ""
-              ]
-            },
-            "title": "Income group"
-          },
-          {
-            "name": "Observation status",
-            "type": "string",
-            "title": "Observation status"
-          },
-          {
-            "name": "Unit multiplier",
-            "type": "string",
-            "title": "Unit multiplier"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percentage (%)",
-                ""
-              ]
-            },
-            "title": "Units"
           },
           {
             "name": "Value",
