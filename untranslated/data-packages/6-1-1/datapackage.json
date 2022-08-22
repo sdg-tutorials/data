@@ -12,35 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percentage of population using safely managed drinking water services",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Unit multiplier",
-            "type": "string"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percentage (%)",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Observation status",
-            "type": "string"
+            "type": "number"
           },
           {
             "name": "Value",
